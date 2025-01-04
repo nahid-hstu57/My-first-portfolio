@@ -1,13 +1,20 @@
 header {
     background: #333;
     color: #fff;
-    padding: 1rem 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #about1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    text-align: left;
   }
   nav ul {
-    display: flex;
+    display:flex;
     justify-content: center;
     list-style: none;
-    gap: 20px;
+    gap: 200px;
   }
   nav ul li a {
     text-decoration: none;
@@ -17,15 +24,16 @@ header {
   nav ul li a:hover {
     color: #f39c12;
   }
-  #hero {
+  #nahid {
     text-align: center;
     padding: 50px 20px;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
-    color: white;
+  background-color: rgba(131, 122, 227, 100);
+    color: rgb(44, 3, 3);
   }
   #about {
     padding: 50px 20px;
-    background: #f4f4f4;
+    background: #56b7e7;
+    color: #333;
     text-align: center;
   }
   .projects {
@@ -33,11 +41,12 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
+    background-color: #0e058e;
   }
   .project-card {
-    background: #fff;
+    background: indigo ;
+    box-shadow: 5px 5px rgb(108, 71, 194);
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
   form {
@@ -60,5 +69,20 @@ header {
   }
   form button:hover {
     background: #6a11cb;
+  }
+  #portfolioxx{
+    background-color: aquamarine;
+    padding: 5px;
+    margin: 0;
+    border: 0;
+  }
+  #me
+  {
+    border: 0;
+    margin: 0;
+    background-color: rgb(150, 217, 230);
+  }
+  #hh{
+    background-color: rgb(171, 118, 220);
   }
           
